@@ -1,4 +1,4 @@
-gender,race/ethnicity,parental level of education,lunch,test preparation course,math score,reading score,writing score
+gender,race_ethnicity,parental_level_of_education,lunch,test_preparation_course,math_score,reading_score,writing_score
 female,group D,master's degree,standard,none,54,60,63
 female,group B,associate's degree,standard,none,47,49,50
 female,group B,associate's degree,standard,completed,61,86,87
