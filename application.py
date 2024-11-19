@@ -1,3 +1,5 @@
+# This application.py file is for deployment
+
 from flask import Flask,request,render_template
 import numpy as np
 import pandas as pd
@@ -5,7 +7,7 @@ import pandas as pd
 
 from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
-application = Flask(__name__) # we do this as AWS beanstalk config uses the word application
+application = Flask(__name__)
 app = application
 
 @app.route('/')
@@ -37,5 +39,4 @@ def predict_datapoint():
     
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0",debug=True)
-
+    app.run(host="0.0.0.0")
